@@ -1,0 +1,50 @@
+/* Centralizando as abas */
+.nav-tab-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* Alinha as abas na parte inferior */
+    border-bottom: 1px solid #ccc;
+    /* Linha divisória para criar o efeito de abas */
+    margin-bottom: 20px;
+}
+
+.nav-tab-wrapper form {
+    margin-right: 10px;
+    /* Espaçamento entre as abas */
+}
+
+/* Ajuste para aproximar o hr das abas */
+.nav-tab-wrapper {
+    margin-bottom: 0;
+    /* Remove qualquer margem inferior extra das abas */
+}
+
+hr {
+    margin-top: -20px;
+    /* Aproxima o hr em 20 pixels das abas */
+}
+
+
+.nav-tab {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    /* Cor de fundo para parecer uma aba */
+    border: 1px solid #ccc;
+    border-bottom: none;
+    /* Remove a borda inferior para criar o efeito de abas */
+    border-radius: 4px 4px 0 0;
+    /* Bordas arredondadas no topo para efeito de abas */
+}
+
+.nav-tab-active {
+    background-color: #fff;
+    /* Cor de fundo da aba ativa */
+    color: #0073aa;
+    /* Cor do texto da aba ativa */
+    border-bottom: 1px solid #fff;
+    /* Conecta a aba ativa ao conteúdo */
+}

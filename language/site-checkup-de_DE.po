@@ -1,0 +1,575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Checkup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-17 07:04+0100\n"
+"PO-Revision-Date: 2024-09-17 07:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: site-checkupX-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dashboard/__dashboard.php:9 dashboard/dashboard.php:9
+msgid "Dashboard"
+msgstr "Armaturenbrett"
+
+#: dashboard/__dashboard.php:10 dashboard/dashboard.php:10
+msgid "Wizard"
+msgstr "Zauberer"
+
+#: dashboard/__dashboard.php:18 dashboard/dashboard.php:18
+msgid "Site Checkup Logo"
+msgstr "Site Checkup Logo"
+
+#: dashboard/__dashboard.php:34 dashboard/dashboard.php:34
+msgid "Nonce verification failed!"
+msgstr "Nonce-Verifizierung fehlgeschlagen!"
+
+#: dashboard/__dashboard.php:54
+msgid ""
+"To begin using the Site Checkup Wizard Plugin, click over the tab \"Wizard\"."
+msgstr ""
+"Um das Site Checkup Wizard-Plugin zu verwenden, klicken Sie auf die "
+"Registerkarte „Assistent“."
+
+#: dashboard/__dashboard.php:56
+msgid "You will find a series of 5 steps in the wizard."
+msgstr "Im Assistenten finden Sie eine Reihe von 5 Schritten."
+
+#: dashboard/__dashboard.php:58
+msgid "Simply click \"Next\" on each step to proceed through the checks."
+msgstr ""
+"Klicken Sie bei jedem Schritt einfach auf „Weiter“, um mit den Prüfungen "
+"fortzufahren."
+
+#: dashboard/__dashboard.php:60
+msgid ""
+"The wizard will guide you through each phase, helping you ensure your site "
+"is in optimal condition."
+msgstr ""
+"Der Assistent führt Sie durch jede Phase und hilft Ihnen sicherzustellen, "
+"dass Ihre Site in optimalem Zustand ist."
+
+#: dashboard/__dashboard.php:62
+msgid "Visit the"
+msgstr "Besuchen Sie die"
+
+#: dashboard/__dashboard.php:63
+msgid "plugin site"
+msgstr "Plugin-Site"
+
+#: dashboard/__dashboard.php:64
+msgid "if you need more information."
+msgstr "wenn Sie weitere Informationen benötigen."
+
+#: dashboard/dashboard.php:54
+#| msgid "Site Checkup Logo"
+msgid "Site Checkup Wizard Dashboard"
+msgstr "Dashboard des Site-Checkup-Assistenten"
+
+#: dashboard/dashboard.php:56
+msgid "Welcome to the Site Checkup Plugin!"
+msgstr "Willkommen beim Site Checkup-Plugin!"
+
+#: dashboard/dashboard.php:57
+msgid ""
+"This plugin helps you ensure that your WordPress site is running at peak "
+"performance and security levels. Follow the steps below to check your site's "
+"health."
+msgstr ""
+"Mit diesem Plugin können Sie sicherstellen, dass Ihre WordPress-Site mit "
+"optimaler Leistung und Sicherheit läuft. Befolgen Sie die nachstehenden "
+"Schritte, um den Zustand Ihrer Site zu überprüfen."
+
+#: dashboard/dashboard.php:63
+msgid "How Does the Site Checkup Wizard Work?"
+msgstr "Wie funktioniert der Site-Checkup-Assistent?"
+
+#: dashboard/dashboard.php:64
+msgid ""
+"The wizard is divided into 5 steps covering essential checks for your site:"
+msgstr ""
+"Der Assistent ist in fünf Schritte unterteilt, die wichtige Prüfungen für "
+"Ihre Site abdecken:"
+
+#: dashboard/dashboard.php:66
+msgid "Check Memory"
+msgstr "Speicher prüfen"
+
+#: dashboard/dashboard.php:66
+msgid "Ensure your WordPress site has enough memory to operate smoothly."
+msgstr ""
+"Stellen Sie sicher, dass Ihre WordPress-Site über genügend Speicher verfügt, "
+"um reibungslos zu funktionieren."
+
+#: dashboard/dashboard.php:67
+msgid "Check for Errors"
+msgstr "Auf Fehler prüfen"
+
+#: dashboard/dashboard.php:67
+msgid ""
+"Check your WordPress and PHP logs for errors, warnings, or notices, "
+"including JavaScript errors."
+msgstr ""
+"Überprüfen Sie Ihre WordPress- und PHP-Protokolle auf Fehler, Warnungen oder "
+"Hinweise, einschließlich JavaScript-Fehler."
+
+#: dashboard/dashboard.php:68
+msgid "Check Tables"
+msgstr "Tabellen prüfen"
+
+#: dashboard/dashboard.php:68
+msgid "Verify the health and integrity of your WordPress database tables."
+msgstr ""
+"Überprüfen Sie die Integrität und Integrität Ihrer WordPress-"
+"Datenbanktabellen."
+
+#: dashboard/dashboard.php:69
+#| msgid "Permissions"
+msgid "File Permissions"
+msgstr "Dateiberechtigungen"
+
+#: dashboard/dashboard.php:69
+msgid ""
+"Ensure that your WordPress files and folders have the correct permissions."
+msgstr ""
+"Stellen Sie sicher, dass Ihre WordPress-Dateien und -Ordner über die "
+"richtigen Berechtigungen verfügen."
+
+#: dashboard/dashboard.php:70
+msgid "Root Folder Extra Files"
+msgstr "Stammordner – Zusätzliche Dateien"
+
+#: dashboard/dashboard.php:70
+msgid "Identify any unnecessary or suspicious files in your root directory."
+msgstr ""
+"Identifizieren Sie alle unnötigen oder verdächtigen Dateien in Ihrem "
+"Stammverzeichnis."
+
+#: dashboard/dashboard.php:74
+msgid ""
+"Click the \"Wizard\" tab to begin the process. At each step, the wizard will "
+"provide personalized recommendations based on your setup."
+msgstr ""
+"Klicken Sie auf die Registerkarte „Assistent“, um den Vorgang zu starten. "
+"Bei jedem Schritt gibt der Assistent personalisierte Empfehlungen basierend "
+"auf Ihrem Setup."
+
+#: dashboard/dashboard.php:77
+msgid "Documentation & Support"
+msgstr "Dokumentation und Support"
+
+#: dashboard/dashboard.php:78
+#| msgid "if you need more information."
+msgid "If you need more information or support, visit our"
+msgstr ""
+"Wenn Sie weitere Informationen oder Unterstützung benötigen, besuchen Sie "
+"unsere"
+
+#: dashboard/dashboard.php:78
+msgid "Official Documentation"
+msgstr "Offizielle Dokumentation"
+
+#: dashboard/dashboard.php:82
+msgid "Troubleshooting"
+msgstr "Fehlerbehebung"
+
+#: dashboard/dashboard.php:83
+msgid ""
+"If you encounter any issues, visit our troubleshooting page for assistance."
+msgstr ""
+"Wenn Sie auf Probleme stoßen, besuchen Sie für weitere Hilfe unsere Seite "
+"zur Fehlerbehebung."
+
+#: dashboard/dashboard.php:84
+msgid "Go to Troubleshooting"
+msgstr "Weiter zur Fehlerbehebung"
+
+#: includes/diagnose/class_bill_diagnose.php:525
+#: includes/diagnose/class_bill_diagnose.php:546
+msgid "Our plugin"
+msgstr "Unser Plugin"
+
+#: includes/diagnose/class_bill_diagnose.php:527
+msgid ""
+"cannot function properly because your WordPress Memory Limit is too low. "
+"Your site will experience serious issues, even if you deactivate our plugin."
+msgstr ""
+"kann nicht richtig funktionieren, weil Ihr WordPress-Speicherlimit zu "
+"niedrig ist. Ihre Site wird ernsthafte Probleme haben, selbst wenn Sie unser "
+"Plugin deaktivieren."
+
+#: includes/diagnose/class_bill_diagnose.php:533
+#: includes/diagnose/class_bill_diagnose.php:554
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#: includes/diagnose/class_bill_diagnose.php:545
+msgid "Your site has errors."
+msgstr "Ihre Site weist Fehler auf."
+
+#: includes/diagnose/class_bill_diagnose.php:548
+msgid ""
+"can't function as intended. Errors, including JavaScript errors, may lead to "
+"visual problems or disrupt functionality, from minor glitches to critical "
+"site failures. Promptly address these issues before continuing."
+msgstr ""
+"kann nicht wie vorgesehen funktionieren. Fehler, einschließlich JavaScript-"
+"Fehler, können zu visuellen Problemen führen oder die Funktionalität "
+"beeinträchtigen, von kleinen Störungen bis hin zu kritischen Site-Ausfällen. "
+"Beheben Sie diese Probleme umgehend, bevor Sie fortfahren."
+
+#: includes/diagnose/class_bill_diagnose.php:574
+msgctxt "Site Health"
+msgid "Critical Issues"
+msgstr "Kritische Probleme"
+
+#: includes/diagnose/class_bill_diagnose.php:604
+msgid ""
+"Displaying the latest recurring errors from your error log file and "
+"eventually alert about low WordPress memory limit is a courtesy of plugin"
+msgstr ""
+"Die Anzeige der neuesten wiederkehrenden Fehler aus Ihrer "
+"Fehlerprotokolldatei und eventuelle Warnungen über niedrige WordPress-"
+"Speichergrenzen sind eine Funktion des Plugins"
+
+#: includes/diagnose/class_bill_diagnose.php:606
+msgid ""
+"Disabling our plugin does not stop the errors from occurring; \n"
+"                it simply means you will no longer be notified here that "
+"they are happening, but they can still harm your site."
+msgstr ""
+"Durch das Deaktivieren unseres Plugins werden die Fehler nicht verhindert. \n"
+"Es bedeutet lediglich, dass Sie hier nicht mehr über deren Auftreten "
+"informiert werden. Ihre Site kann jedoch weiterhin Schaden nehmen."
+
+#: includes/diagnose/class_bill_diagnose.php:613
+msgid "Potential Problems"
+msgstr "Mögliche Probleme"
+
+#: includes/diagnose/class_bill_diagnose.php:621
+msgid "Low WordPress Memory Limit"
+msgstr "Niedriges WordPress-Speicherlimit"
+
+#: includes/diagnose/class_bill_diagnose.php:634
+msgid "Your usage now"
+msgstr "Ihr Verbrauch jetzt"
+
+#: includes/diagnose/class_bill_diagnose.php:642
+msgid "Total Php Server Memory"
+msgstr "Gesamter PHP-Serverspeicher"
+
+#: includes/diagnose/class_bill_diagnose.php:651 wizard/_wizard.php:169
+#: wizard/wizard.php:173
+msgid ""
+"Your WordPress Memory Limit is too low, which can lead to critical issues on "
+"your site due to insufficient resources. Promptly address this issue before "
+"continuing."
+msgstr ""
+"Ihr WordPress-Speicherlimit ist zu niedrig, was aufgrund unzureichender "
+"Ressourcen zu kritischen Problemen auf Ihrer Site führen kann. Beheben Sie "
+"dieses Problem umgehend, bevor Sie fortfahren."
+
+#: includes/diagnose/class_bill_diagnose.php:657
+#: includes/diagnose/class_bill_diagnose.php:680 wizard/_wizard.php:178
+#: wizard/_wizard.php:271 wizard/_wizard.php:374 wizard/wizard.php:182
+#: wizard/wizard.php:273 wizard/wizard.php:389
+msgid "Learn More"
+msgstr "Mehr erfahren"
+
+#: includes/diagnose/class_bill_diagnose.php:671
+msgid "Site Errors"
+msgstr "Site-Fehler"
+
+#: includes/diagnose/class_bill_diagnose.php:676
+msgid ""
+"Your site has experienced errors for the past 2 days. These errors, "
+"including JavaScript issues, can result in visual problems or disrupt "
+"functionality, ranging from minor glitches to critical site failures. "
+"JavaScript errors can terminate JavaScript execution, leaving all subsequent "
+"commands inoperable."
+msgstr ""
+"Auf Ihrer Website sind in den letzten 2 Tagen Fehler aufgetreten. Diese "
+"Fehler, darunter auch JavaScript-Probleme, können zu visuellen Problemen "
+"oder Funktionsstörungen führen, die von kleineren Störungen bis hin zu "
+"schwerwiegenden Website-Ausfällen reichen. JavaScript-Fehler können die "
+"Ausführung von JavaScript beenden und alle nachfolgenden Befehle "
+"funktionsunfähig machen."
+
+#: includes/diagnose/class_bill_diagnose.php:725
+msgid "This is a partial list of the errors found."
+msgstr "Dies ist eine unvollständige Liste der gefundenen Fehler."
+
+#: includes/diagnose/class_bill_diagnose.php:1086
+msgid ""
+"These are critical issues that can have a significant impact on your site's "
+"performance. They can cause many plugins and functionalities to malfunction "
+"and, in some cases, render your site completely inoperative, depending on "
+"their severity. Address them promptly."
+msgstr ""
+"Dies sind kritische Probleme, die erhebliche Auswirkungen auf die Leistung "
+"Ihrer Website haben können. Sie können zu Fehlfunktionen vieler Plugins und "
+"Funktionen führen und in einigen Fällen, je nach Schweregrad, Ihre Website "
+"vollständig funktionsunfähig machen. Beheben Sie sie umgehend."
+
+#: site-checkup.php:333
+msgid "Check the Tools Menu"
+msgstr "Überprüfen Sie das Menü „Extras“"
+
+#: site-checkup.php:334
+msgid "Click here to access the Site Checkup dashboard."
+msgstr "Klicken Sie hier, um auf das Site Checkup-Dashboard zuzugreifen."
+
+#: wizard/_wizard.php:310 wizard/wizard.php:325
+msgid "Check the status of all your tables. Everything should be marked as OK."
+msgstr ""
+"Überprüfen Sie den Status aller Ihrer Tabellen. Alles sollte als OK markiert "
+"sein."
+
+#: wizard/_wizard.php:320 wizard/wizard.php:335
+msgid "Status"
+msgstr "Status"
+
+#: wizard/_wizard.php:323 wizard/wizard.php:338
+msgid "Table Name"
+msgstr "Tabellenname"
+
+#: wizard/_wizard.php:324 wizard/wizard.php:339
+msgid "Engine"
+msgstr "Motor"
+
+#: wizard/_wizard.php:325 wizard/wizard.php:340
+msgid "Last Update"
+msgstr "Letztes Update"
+
+#: wizard/_wizard.php:327 wizard/wizard.php:342
+msgid "Data Length (Aproximate)"
+msgstr "Datenlänge (ungefähr)"
+
+#: wizard/_wizard.php:368 wizard/wizard.php:383
+msgid "There are issues with your tables."
+msgstr "Es gibt Probleme mit Ihren Tabellen."
+
+#: wizard/_wizard.php:388 wizard/wizard.php:403
+msgid "Permission Scheme for WordPress"
+msgstr "Berechtigungsschema für WordPress"
+
+#: wizard/_wizard.php:390 wizard/wizard.php:405
+msgid "Typically"
+msgstr "Typischerweise"
+
+#: wizard/_wizard.php:393 wizard/wizard.php:408
+msgid "Files"
+msgstr "Dateien"
+
+#: wizard/_wizard.php:396 wizard/wizard.php:411
+msgid "Folders"
+msgstr "Ordner"
+
+#: wizard/_wizard.php:399 wizard/wizard.php:414
+msgid "File wp-config.php: 660"
+msgstr "Datei wp-config.php: 660"
+
+#: wizard/_wizard.php:404 wizard/wizard.php:419
+msgid "wp-config.php currently permissions:"
+msgstr "wp-config.php aktuelle Berechtigungen:"
+
+#: wizard/_wizard.php:411 wizard/wizard.php:425
+msgid "Visit plugin's site for detais"
+msgstr "Weitere Informationen finden Sie auf der Website des Plugins."
+
+#: wizard/_wizard.php:416 wizard/wizard.php:432
+msgid "Unable to read files"
+msgstr "Dateien können nicht gelesen werden"
+
+#: wizard/_wizard.php:422 wizard/wizard.php:438
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+#: wizard/_wizard.php:423 wizard/wizard.php:439
+msgid "Files / Folders"
+msgstr "Dateien/Ordner"
+
+#: wizard/_wizard.php:476 wizard/wizard.php:492
+msgid "Files with wrong permissions. This plugin will show max 50."
+msgstr ""
+"Dateien mit falschen Berechtigungen. Dieses Plugin zeigt maximal 50 an."
+
+#: wizard/_wizard.php:480 wizard/wizard.php:496
+msgid "No files found with wrong permissions."
+msgstr "Keine Dateien mit falschen Berechtigungen gefunden."
+
+#: wizard/_wizard.php:489 wizard/wizard.php:505
+msgid "Folders with wrong permissions. This plugin will show max 50."
+msgstr "Ordner mit falschen Berechtigungen. Dieses Plugin zeigt maximal 50 an."
+
+#: wizard/_wizard.php:494 wizard/wizard.php:510
+msgid "No folders found with wrong permissions."
+msgstr "Keine Ordner mit falschen Berechtigungen gefunden."
+
+#: wizard/_wizard.php:504 wizard/wizard.php:520
+msgid "By security."
+msgstr "Durch die Sicherheit."
+
+#: wizard/_wizard.php:552 wizard/wizard.php:568
+msgid "ERROR on Search the root folder. Maybe no Hosting permissions."
+msgstr ""
+"FEHLER beim Durchsuchen des Stammordners. Möglicherweise keine Hosting-"
+"Berechtigungen."
+
+#: wizard/_wizard.php:555 wizard/wizard.php:571
+msgid "File(s) found on site root folder"
+msgstr "Im Stammordner der Site gefundene Datei(en)"
+
+#: wizard/_wizard.php:565 wizard/wizard.php:581
+msgid "More files found"
+msgstr "Weitere Dateien gefunden"
+
+#: wizard/_wizard.php:570 wizard/wizard.php:586
+msgid ""
+"Make sure the files in the root directory of your site are supposed to be "
+"there. If they aren’t needed, consider removing them to keep things secure."
+msgstr ""
+"Stellen Sie sicher, dass die Dateien im Stammverzeichnis Ihrer Site auch "
+"dort vorhanden sein sollen. Wenn sie nicht benötigt werden, sollten Sie sie "
+"aus Sicherheitsgründen entfernen."
+
+#: wizard/_wizard.php:573 wizard/wizard.php:589
+msgid "No extra files found! All Right."
+msgstr "Keine zusätzlichen Dateien gefunden! Alles klar."
+
+#: wizard/wizard.php:29
+msgid "Step"
+msgstr "Schritt"
+
+#: wizard/wizard.php:31
+msgid "of"
+msgstr "von"
+
+#: wizard/wizard.php:41
+msgid "Previous"
+msgstr "Vorherige"
+
+#: wizard/wizard.php:44
+msgid "Next"
+msgstr "Nächste"
+
+#: wizard/wizard.php:75
+msgid "Step 1: "
+msgstr "Schritt 1:"
+
+#: wizard/wizard.php:118 wizard/wizard.php:251
+msgid ""
+"Installing... Please wait. Do not reload the page or click the back button."
+msgstr ""
+"Wird installiert... Bitte warten. Laden Sie die Seite nicht neu und klicken "
+"Sie nicht auf die Schaltfläche „Zurück“."
+
+#: wizard/wizard.php:121 wizard/wizard.php:254
+msgid "Loading..."
+msgstr "Laden..."
+
+#: wizard/wizard.php:130
+msgid ""
+"Unable to retrieve memory data from your server. This could be due to a "
+"hosting issue."
+msgstr ""
+"Speicherdaten können nicht von Ihrem Server abgerufen werden. Dies kann an "
+"einem Hosting-Problem liegen."
+
+#: wizard/wizard.php:144
+msgid "Percentage of used memory: "
+msgstr "Prozentsatz des verwendeten Speichers:"
+
+#: wizard/wizard.php:147
+msgid "Free memory: "
+msgstr "Freier Speicher:"
+
+#: wizard/wizard.php:154
+msgid "Memory Usage: "
+msgstr "Speichernutzung:"
+
+#: wizard/wizard.php:157
+msgid "PHP Memory Limit: "
+msgstr "PHP-Speicherlimit:"
+
+#: wizard/wizard.php:161
+msgid "WordPress Memory Limit: "
+msgstr "WordPress-Speicherlimit:"
+
+#: wizard/wizard.php:166
+msgid "Status: "
+msgstr "Stand:"
+
+#: wizard/wizard.php:168
+msgid "All good."
+msgstr "Alles gut."
+
+#: wizard/wizard.php:200
+msgid "If you'd like help with memory management, this free plugin can help."
+msgstr ""
+"Wenn Sie Hilfe bei der Speicherverwaltung benötigen, kann dieses kostenlose "
+"Plugin hilfreich sein."
+
+#: wizard/wizard.php:207
+#| msgid "Install WPmemory Free"
+msgid "Install WP-Memory Free"
+msgstr "Installieren Sie WP-memory kostenlos"
+
+#: wizard/wizard.php:217
+msgid ""
+"Unable to retrieve memory data from your server. This could be due to a "
+"hosting issue (2)."
+msgstr ""
+"Es konnten keine Speicherdaten von Ihrem Server abgerufen werden. Dies "
+"könnte an einem Hosting-Problem liegen (2)."
+
+#: wizard/wizard.php:225
+msgid "Step 2:"
+msgstr "Schritt 2:"
+
+#: wizard/wizard.php:260
+msgid ""
+"Errors or warnings have been found in your server's error log for the last "
+"48 hours. We recommend examining these errors and addressing them "
+"immediately to avoid potential issues, ensuring greater stability for your "
+"site."
+msgstr ""
+"Im Fehlerprotokoll Ihres Servers wurden in den letzten 48 Stunden Fehler "
+"oder Warnungen gefunden. Wir empfehlen, diese Fehler zu untersuchen und "
+"sofort zu beheben, um potenzielle Probleme zu vermeiden und eine höhere "
+"Stabilität Ihrer Site zu gewährleisten."
+
+#: wizard/wizard.php:265
+msgid "Click the red button Site Errors on your admin bar"
+msgstr "Klicken Sie auf den roten Button „Site Errors“ in Ihrer Admin-Leiste."
+
+#: wizard/wizard.php:292
+msgid "If you'd like help with errors management, this free plugin can help."
+msgstr ""
+"Wenn Sie Hilfe beim Fehlermanagement benötigen, kann dieses kostenlose "
+"Plugin hilfreich sein."
+
+#: wizard/wizard.php:299
+msgid "Install WPtools Free"
+msgstr "Installieren Sie WPtools kostenlos"
+
+#: wizard/wizard.php:308
+msgid ""
+"No errors or warnings have been found in the last 48 hours. However, it's "
+"advisable to examine the error log for a longer time frame."
+msgstr ""
+"In den letzten 48 Stunden wurden keine Fehler oder Warnungen gefunden. Es "
+"ist jedoch ratsam, das Fehlerprotokoll über einen längeren Zeitraum zu "
+"untersuchen."

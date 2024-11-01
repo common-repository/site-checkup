@@ -1,0 +1,240 @@
+/* css/site-checkup-wizard-style.css */
+
+#site-checkup-logo {
+    margin-top: 20px;
+}
+
+.site-checkup-wizard {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-checkup-wizard-progress {
+    margin-bottom: 20px;
+    background: #b8b6b6;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.site-checkup-wizard-progress-bar {
+    height: 100%;
+    background: #0073aa;
+    transition: width 0.3s ease;
+}
+
+.site-checkup-wizard-progress-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.site-checkup-wizard-buttons-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.site-checkup-wizard-buttons-top form {
+    display: flex;
+    gap: 10px;
+    /* Espaço entre os botões */
+}
+
+.site-checkup-wizard-buttons-top button {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    height: auto;
+    min-width: 100px;
+    /* Garante uma largura mínima igual para ambos os botões */
+    text-align: center;
+    border: 1px solid #0071a1;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #0073aa;
+    color: #ffffff;
+    border-color: #006799;
+}
+
+.site-checkup-wizard-buttons-top button:hover {
+    background-color: #006799;
+}
+
+.site-checkup-wizard-steps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.site-checkup-wizard-step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+    color: #666;
+    position: relative;
+    font-weight: bold;
+    max-width: 150px;
+}
+
+.site-checkup-wizard-step:not(:last-child):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 30px;
+    height: 2px;
+    background: #ddd;
+    z-index: 1;
+}
+
+.site-checkup-wizard-step.active {
+    background: #0073aa;
+    color: #fff;
+}
+
+
+/*
+.site-checkup-wizard-step.completed {
+    background: #4CAF50;
+    color: #fff;
+}
+*/
+.site-checkup-wizard-step.completed {
+    background: #0290c8;
+    /* Azul claro */
+    color: #fff;
+    /* Mantém o texto em branco para contraste */
+}
+
+.site-checkup-wizard-step.active:after,
+.site-checkup-wizard-step.completed:after {
+    background: #0073aa;
+}
+
+.site-checkup-wizard-content {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.site-checkup-wizard-content h2 {
+    margin-top: 0;
+    color: #0073aa;
+}
+
+.site-checkup-wizard-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.site-checkup-wizard-buttons .button-primary {
+    background: #0073aa;
+    border-color: #006799;
+}
+
+.site-checkup-wizard-buttons .button-primary:hover {
+    background: #006799;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .site-checkup-wizard-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-checkup-wizard-step {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .site-checkup-wizard-step:not(:last-child):after {
+        display: none;
+    }
+
+    .site-checkup-wizard-buttons-top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-checkup-wizard-buttons-top button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+#site-checkup-prev-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border-color: #ccc;
+}
+
+#site-checkup-prev-button:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+/* Styles for the table */
+.site-checkup_admin_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Styles for the header */
+.site-checkup_admin_table th {
+    background-color: #035ca5;
+    /* Background color for the header */
+    color: white;
+    /* Text color for the header */
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Styles for the data cells */
+.site-checkup_admin_table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating background color for table rows */
+.site-checkup_admin_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Background color when hovering over a row */
+.site-checkup_admin_table tr:hover {
+    background-color: #ddd;
+}
+
+/* Style for the first cell of each row (Status) */
+.site-checkup_admin_table td:first-child {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles for column widths */
+.site-checkup_admin_table th:first-child,
+.site-checkup_admin_table td:first-child {
+    width: 50px;
+}

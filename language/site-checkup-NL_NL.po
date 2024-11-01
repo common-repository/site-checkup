@@ -1,0 +1,438 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Site Checkup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-12 10:36+0100\n"
+"PO-Revision-Date: 2024-09-12 09:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl-NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: site-checkupX-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: dashboard/__dashboard.php:9 dashboard/dashboard.php:9
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: dashboard/__dashboard.php:10 dashboard/dashboard.php:10
+msgid "Wizard"
+msgstr "Tovenaar"
+
+#: dashboard/__dashboard.php:18 dashboard/dashboard.php:18
+msgid "Site Checkup Logo"
+msgstr "Site Checkup-logo"
+
+#: dashboard/__dashboard.php:34 dashboard/dashboard.php:34
+msgid "Nonce verification failed!"
+msgstr "Nonce-verificatie mislukt!"
+
+#: dashboard/__dashboard.php:54 dashboard/dashboard.php:54
+msgid ""
+"To begin using the Site Checkup Wizard Plugin, click over the tab \"Wizard\"."
+msgstr ""
+"Om de Site Checkup Wizard Plugin te gebruiken, klikt u op het tabblad "
+"'Wizard'."
+
+#: dashboard/__dashboard.php:56 dashboard/dashboard.php:56
+msgid "You will find a series of 5 steps in the wizard."
+msgstr "In de wizard vindt u een reeks van 5 stappen."
+
+#: dashboard/__dashboard.php:58 dashboard/dashboard.php:58
+msgid "Simply click \"Next\" on each step to proceed through the checks."
+msgstr ""
+"Klik bij elke stap eenvoudigweg op \"Volgende\" om de controles uit te "
+"voeren."
+
+#: dashboard/__dashboard.php:60 dashboard/dashboard.php:60
+msgid ""
+"The wizard will guide you through each phase, helping you ensure your site "
+"is in optimal condition."
+msgstr ""
+"De wizard begeleidt u door elke fase en zorgt ervoor dat uw site in optimale "
+"staat verkeert."
+
+#: dashboard/__dashboard.php:62 dashboard/dashboard.php:62
+msgid "Visit the"
+msgstr "Bezoek de"
+
+#: dashboard/__dashboard.php:63 dashboard/dashboard.php:63
+msgid "plugin site"
+msgstr "plug-in site"
+
+#: dashboard/__dashboard.php:64 dashboard/dashboard.php:64
+msgid "if you need more information."
+msgstr "als u meer informatie nodig hebt."
+
+#: includes/diagnose/class_bill_diagnose.php:525 
+#: includes/diagnose/class_bill_diagnose.php:546
+msgid "Our plugin"
+msgstr "Onze plug-in"
+
+#: includes/diagnose/class_bill_diagnose.php:527
+msgid ""
+"cannot function properly because your WordPress Memory Limit is too low. "
+"Your site will experience serious issues, even if you deactivate our plugin."
+msgstr ""
+"kan niet goed functioneren omdat uw WordPress-geheugenlimiet te laag is. Uw "
+"site zal ernstige problemen ondervinden, zelfs als u onze plugin deactiveert."
+
+#: includes/diagnose/class_bill_diagnose.php:533 
+#: includes/diagnose/class_bill_diagnose.php:554
+msgid "Learn more"
+msgstr "Meer informatie"
+
+#: includes/diagnose/class_bill_diagnose.php:545
+msgid "Your site has errors."
+msgstr "Er zijn fouten op uw site."
+
+#: includes/diagnose/class_bill_diagnose.php:548
+msgid ""
+"can't function as intended. Errors, including JavaScript errors, may lead to "
+"visual problems or disrupt functionality, from minor glitches to critical "
+"site failures. Promptly address these issues before continuing."
+msgstr ""
+"kan niet functioneren zoals bedoeld. Fouten, waaronder JavaScript-fouten, "
+"kunnen leiden tot visuele problemen of de functionaliteit verstoren, van "
+"kleine storingen tot kritieke sitestoringen. Los deze problemen onmiddellijk "
+"op voordat u verdergaat."
+
+#: includes/diagnose/class_bill_diagnose.php:574
+msgctxt "Site Health"
+msgid "Critical Issues"
+msgstr "Kritieke kwesties"
+
+#: includes/diagnose/class_bill_diagnose.php:604
+msgid ""
+"Displaying the latest recurring errors from your error log file and "
+"eventually alert about low WordPress memory limit is a courtesy of plugin"
+msgstr ""
+"Het weergeven van de laatste terugkerende fouten uit uw foutenlogboekbestand "
+"en uiteindelijk een waarschuwing over een lage geheugenlimiet voor WordPress "
+"is een service van de plugin"
+
+#: includes/diagnose/class_bill_diagnose.php:606
+msgid ""
+"Disabling our plugin does not stop the errors from occurring; \n"
+"                it simply means you will no longer be notified here that "
+"they are happening, but they can still harm your site."
+msgstr ""
+"Het uitschakelen van onze plugin voorkomt niet dat de fouten optreden; \n"
+"het betekent alleen dat u hier niet langer op de hoogte wordt gesteld dat ze "
+"optreden, maar ze kunnen nog steeds schadelijk zijn voor uw site."
+
+#: includes/diagnose/class_bill_diagnose.php:613
+msgid "Potential Problems"
+msgstr "Mogelijke problemen"
+
+#: includes/diagnose/class_bill_diagnose.php:621
+msgid "Low WordPress Memory Limit"
+msgstr "Lage WordPress-geheugenlimiet"
+
+#: includes/diagnose/class_bill_diagnose.php:634
+msgid "Your usage now"
+msgstr "Uw gebruik nu"
+
+#: includes/diagnose/class_bill_diagnose.php:642
+msgid "Total Php Server Memory"
+msgstr "Totaal PHP-servergeheugen"
+
+#: includes/diagnose/class_bill_diagnose.php:651 wizard/_wizard.php:169 
+#: wizard/wizard.php:176
+msgid ""
+"Your WordPress Memory Limit is too low, which can lead to critical issues on "
+"your site due to insufficient resources. Promptly address this issue before "
+"continuing."
+msgstr ""
+"Uw WordPress-geheugenlimiet is te laag, wat kan leiden tot kritieke "
+"problemen op uw site vanwege onvoldoende bronnen. Los dit probleem "
+"onmiddellijk op voordat u verdergaat."
+
+#: includes/diagnose/class_bill_diagnose.php:657 
+#: includes/diagnose/class_bill_diagnose.php:680 wizard/_wizard.php:178 
+#: wizard/_wizard.php:271 wizard/_wizard.php:374 wizard/wizard.php:185 
+#: wizard/wizard.php:262 wizard/wizard.php:374
+msgid "Learn More"
+msgstr "Meer informatie"
+
+#: includes/diagnose/class_bill_diagnose.php:671
+msgid "Site Errors"
+msgstr "Sitefouten"
+
+#: includes/diagnose/class_bill_diagnose.php:676
+msgid ""
+"Your site has experienced errors for the past 2 days. These errors, "
+"including JavaScript issues, can result in visual problems or disrupt "
+"functionality, ranging from minor glitches to critical site failures. "
+"JavaScript errors can terminate JavaScript execution, leaving all subsequent "
+"commands inoperable."
+msgstr ""
+"Er zijn de afgelopen 2 dagen fouten opgetreden op uw site. Deze fouten, "
+"waaronder JavaScript-problemen, kunnen visuele problemen veroorzaken of de "
+"functionaliteit verstoren, variërend van kleine storingen tot kritieke "
+"sitestoringen. JavaScript-fouten kunnen de uitvoering van JavaScript "
+"beëindigen, waardoor alle daaropvolgende opdrachten niet meer werken."
+
+#: includes/diagnose/class_bill_diagnose.php:725
+msgid "This is a partial list of the errors found."
+msgstr "Dit is een gedeeltelijke lijst van de gevonden fouten."
+
+#: includes/diagnose/class_bill_diagnose.php:1086
+msgid ""
+"These are critical issues that can have a significant impact on your site's "
+"performance. They can cause many plugins and functionalities to malfunction "
+"and, in some cases, render your site completely inoperative, depending on "
+"their severity. Address them promptly."
+msgstr ""
+"Dit zijn kritieke problemen die een aanzienlijke impact kunnen hebben op de "
+"prestaties van uw site. Ze kunnen ervoor zorgen dat veel plugins en "
+"functionaliteiten niet goed werken en in sommige gevallen uw site volledig "
+"onbruikbaar maken, afhankelijk van de ernst ervan. Pak ze snel aan."
+
+#: wizard/_wizard.php:310 wizard/wizard.php:310
+msgid "Check the status of all your tables. Everything should be marked as OK."
+msgstr ""
+"Controleer de status van al uw tabellen. Alles zou als OK gemarkeerd moeten "
+"zijn."
+
+#: wizard/_wizard.php:320 wizard/wizard.php:320
+msgid "Status"
+msgstr "Staat"
+
+#: wizard/_wizard.php:323 wizard/wizard.php:323
+msgid "Table Name"
+msgstr "Tabelnaam"
+
+#: wizard/_wizard.php:324 wizard/wizard.php:324
+msgid "Engine"
+msgstr "Motor"
+
+#: wizard/_wizard.php:325 wizard/wizard.php:325
+msgid "Last Update"
+msgstr "Laatste update"
+
+#: wizard/_wizard.php:327 wizard/wizard.php:327
+msgid "Data Length (Aproximate)"
+msgstr "Gegevenslengte (bij benadering)"
+
+#: wizard/_wizard.php:368 wizard/wizard.php:368
+msgid "There are issues with your tables."
+msgstr "Er zijn problemen met uw tabellen."
+
+#: wizard/_wizard.php:388 wizard/wizard.php:388
+msgid "Permission Scheme for WordPress"
+msgstr "Toestemmingsschema voor WordPress"
+
+#: wizard/_wizard.php:390 wizard/wizard.php:390
+msgid "Typically"
+msgstr "Typisch"
+
+#: wizard/_wizard.php:393 wizard/wizard.php:393
+msgid "Files"
+msgstr "Bestanden"
+
+#: wizard/_wizard.php:396 wizard/wizard.php:396
+msgid "Folders"
+msgstr "Mappen"
+
+#: wizard/_wizard.php:399 wizard/wizard.php:399
+msgid "File wp-config.php: 660"
+msgstr "Bestand wp-config.php: 660"
+
+#: wizard/_wizard.php:404 wizard/wizard.php:404
+msgid "wp-config.php currently permissions:"
+msgstr "wp-config.php huidige rechten:"
+
+#: wizard/_wizard.php:411 wizard/wizard.php:410
+msgid "Visit plugin's site for detais"
+msgstr "Bezoek de site van de plugin voor meer informatie"
+
+#: wizard/_wizard.php:416 wizard/wizard.php:417
+msgid "Unable to read files"
+msgstr "Kan bestanden niet lezen"
+
+#: wizard/_wizard.php:422 wizard/wizard.php:423
+msgid "Permissions"
+msgstr "Machtigingen"
+
+#: wizard/_wizard.php:423 wizard/wizard.php:424
+msgid "Files / Folders"
+msgstr "Bestanden / Mappen"
+
+#: wizard/_wizard.php:476 wizard/wizard.php:477
+msgid "Files with wrong permissions. This plugin will show max 50."
+msgstr "Bestanden met verkeerde rechten. Deze plugin toont max 50."
+
+#: wizard/_wizard.php:480 wizard/wizard.php:481
+msgid "No files found with wrong permissions."
+msgstr "Er zijn geen bestanden met verkeerde rechten gevonden."
+
+#: wizard/_wizard.php:489 wizard/wizard.php:490
+msgid "Folders with wrong permissions. This plugin will show max 50."
+msgstr "Mappen met verkeerde rechten. Deze plugin toont er max 50."
+
+#: wizard/_wizard.php:494 wizard/wizard.php:495
+msgid "No folders found with wrong permissions."
+msgstr "Er zijn geen mappen met onjuiste rechten gevonden."
+
+#: wizard/_wizard.php:504 wizard/wizard.php:505
+msgid "By security."
+msgstr "Door beveiliging."
+
+#: wizard/_wizard.php:552 wizard/wizard.php:553
+msgid "ERROR on Search the root folder. Maybe no Hosting permissions."
+msgstr "ERROR bij Zoeken in de root folder. Mogelijk geen Hosting permissies."
+
+#: wizard/_wizard.php:555 wizard/wizard.php:556
+msgid "File(s) found on site root folder"
+msgstr "Bestand(en) gevonden in de hoofdmap van de site"
+
+#: wizard/_wizard.php:565 wizard/wizard.php:566
+msgid "More files found"
+msgstr "Meer bestanden gevonden"
+
+#: wizard/_wizard.php:570 wizard/wizard.php:571
+msgid ""
+"Make sure the files in the root directory of your site are supposed to be "
+"there. If they aren’t needed, consider removing them to keep things secure."
+msgstr ""
+"Zorg ervoor dat de bestanden in de root directory van je site daar horen te "
+"staan. Als ze niet nodig zijn, overweeg ze dan te verwijderen om alles "
+"veilig te houden."
+
+#: wizard/_wizard.php:573 wizard/wizard.php:574
+msgid "No extra files found! All Right."
+msgstr "Geen extra bestanden gevonden! Goed."
+
+#: wizard/wizard.php:29
+msgid "Step"
+msgstr "Stap"
+
+#: wizard/wizard.php:31
+msgid "of"
+msgstr "van"
+
+#: wizard/wizard.php:41
+msgid "Previous"
+msgstr "Vorig"
+
+#: wizard/wizard.php:44
+msgid "Next"
+msgstr "Volgende"
+
+#: wizard/wizard.php:75
+msgid "Step 1: "
+msgstr "Stap 1:"
+
+#: wizard/wizard.php:132
+msgid ""
+"Unable to retrieve memory data from your server. This could be due to a "
+"hosting issue."
+msgstr ""
+"Kan geen geheugengegevens ophalen van uw server. Dit kan te wijten zijn aan "
+"een hostingprobleem."
+
+#: wizard/wizard.php:146
+msgid "Percentage of used memory: "
+msgstr "Percentage gebruikt geheugen:"
+
+#: wizard/wizard.php:149
+msgid "Free memory: "
+msgstr "Vrij geheugen:"
+
+#: wizard/wizard.php:157
+msgid "Memory Usage: "
+msgstr "Geheugengebruik:"
+
+#: wizard/wizard.php:160
+msgid "PHP Memory Limit: "
+msgstr "PHP-geheugenlimiet:"
+
+#: wizard/wizard.php:164
+msgid "WordPress Memory Limit: "
+msgstr "WordPress-geheugenlimiet:"
+
+#: wizard/wizard.php:169
+msgid "Status: "
+msgstr "Staat:"
+
+#: wizard/wizard.php:171
+msgid "All good."
+msgstr "Alles goed."
+
+#: wizard/wizard.php:201
+msgid "If you'd like help with memory management, this free plugin can help."
+msgstr ""
+"Als u hulp nodig hebt met geheugenbeheer, kan deze gratis plug-in u helpen."
+
+#: wizard/wizard.php:203
+msgid "Install WPmemory Free"
+msgstr "Installeer WPmemory gratis"
+
+#: wizard/wizard.php:204 wizard/wizard.php:286 wizard/wizard.php:287
+msgid "Loading..."
+msgstr "Bezig met laden..."
+
+#: wizard/wizard.php:205
+msgid "Installing..."
+msgstr "Installeren..."
+
+#: wizard/wizard.php:210
+msgid ""
+"Unable to retrieve memory data from your server. This could be due to a "
+"hosting issue (2)."
+msgstr ""
+"Kan geen geheugengegevens ophalen van uw server. Dit kan te wijten zijn aan "
+"een hostingprobleem (2)."
+
+#: wizard/wizard.php:219
+#, fuzzy
+#| msgid "Step 1: "
+msgid "Step 2:"
+msgstr "Stap 1:"
+
+#: wizard/wizard.php:249
+msgid ""
+"Errors or warnings have been found in your server's error log for the last "
+"48 hours. We recommend examining these errors and addressing them "
+"immediately to avoid potential issues, ensuring greater stability for your "
+"site."
+msgstr ""
+"Er zijn fouten of waarschuwingen gevonden in het foutenlogboek van uw server "
+"gedurende de laatste 48 uur. Wij raden u aan deze fouten te onderzoeken en "
+"ze onmiddellijk aan te pakken om mogelijke problemen te voorkomen en zo een "
+"grotere stabiliteit voor uw site te garanderen."
+
+#: wizard/wizard.php:254
+msgid "Click the red button Site Errors on your admin bar"
+msgstr "Klik op de rode knop Sitefouten op uw beheerbalk"
+
+#: wizard/wizard.php:279
+#, fuzzy
+#| msgid "If you'd like help with memory management, this free plugin can help."
+msgid "If you'd like help with errors management, this free plugin can help."
+msgstr ""
+"Als u hulp nodig hebt met geheugenbeheer, kan deze gratis plug-in u helpen."
+
+#: wizard/wizard.php:284
+#, fuzzy
+#| msgid "Install WPmemory Free"
+msgid "Install WPtools Free"
+msgstr "Installeer WPmemory gratis"
+
+#: wizard/wizard.php:292
+msgid ""
+"No errors or warnings have been found in the last 48 hours. However, it's "
+"advisable to examine the error log for a longer time frame."
+msgstr ""
+"Er zijn geen fouten of waarschuwingen gevonden in de laatste 48 uur. Het is "
+"echter raadzaam om het foutenlogboek over een langere periode te bekijken."
